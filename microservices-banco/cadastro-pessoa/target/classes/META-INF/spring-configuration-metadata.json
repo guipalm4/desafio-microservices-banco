@@ -1,0 +1,27 @@
+{
+  "groups": [
+    {
+      "name": "myserver",
+      "type": "com.guiPalma.desafio.cadastropessoa.config.ConfigServersEnvironment",
+      "sourceType": "com.guiPalma.desafio.cadastropessoa.config.ConfigServersEnvironment"
+    }
+  ],
+  "properties": [
+    {
+      "name": "myserver.conta-corrente-path",
+      "type": "java.lang.String",
+      "sourceType": "com.guiPalma.desafio.cadastropessoa.config.ConfigServersEnvironment"
+    },
+    {
+      "name": "myserver.gateway-path",
+      "type": "java.lang.String",
+      "sourceType": "com.guiPalma.desafio.cadastropessoa.config.ConfigServersEnvironment"
+    },
+    {
+      "name": "myserver.main-url",
+      "type": "java.lang.String",
+      "sourceType": "com.guiPalma.desafio.cadastropessoa.config.ConfigServersEnvironment"
+    }
+  ],
+  "hints": []
+}

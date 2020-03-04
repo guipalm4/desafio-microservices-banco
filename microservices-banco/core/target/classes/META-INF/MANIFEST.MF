@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: guilh
+Build-Jdk: 11.0.6
+Implementation-Title: core
+Implementation-Version: 1.0-SNAPSHOT
+Implementation-Vendor-Id: com.guiPalma.desafio
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/microservices-banco/core
+Created-By: Maven Integration for Eclipse
+

@@ -1,0 +1,17 @@
+com\guiPalma\desafio\core\exceptions\ValidationError.class
+com\guiPalma\desafio\core\model\AbstractEntity.class
+com\guiPalma\desafio\core\exceptions\DataIntegrityException.class
+com\guiPalma\desafio\core\responses\ContaCorrenteResponse$ContaCorrenteResponseBuilder.class
+com\guiPalma\desafio\core\exceptions\ServiceErrorException.class
+com\guiPalma\desafio\core\exceptions\StandardError.class
+com\guiPalma\desafio\core\exceptions\ResourceExceptionHandler.class
+com\guiPalma\desafio\core\enums\TipoLimiteEnum.class
+com\guiPalma\desafio\core\responses\ContaCorrenteResponse.class
+com\guiPalma\desafio\core\enums\TipoPessoaEnum.class
+com\guiPalma\desafio\core\util\Validator.class
+com\guiPalma\desafio\core\exceptions\FieldMessage.class
+com\guiPalma\desafio\core\responses\CadastroPessoaResponse$CadastroPessoaResponseBuilder.class
+com\guiPalma\desafio\core\exceptions\ActionDeniedException.class
+com\guiPalma\desafio\core\exceptions\ObjectNotFoundException.class
+com\guiPalma\desafio\core\CoreApplication.class
+com\guiPalma\desafio\core\responses\CadastroPessoaResponse.class

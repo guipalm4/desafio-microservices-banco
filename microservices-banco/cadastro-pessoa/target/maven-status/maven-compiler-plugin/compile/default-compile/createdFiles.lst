@@ -1,0 +1,13 @@
+com\guiPalma\desafio\cadastropessoa\repository\CadastroPessoaRepository.class
+com\guiPalma\desafio\cadastropessoa\CadastroPessoaApplication.class
+com\guiPalma\desafio\cadastropessoa\endpoint\service\validation\PessoaInsert.class
+com\guiPalma\desafio\cadastropessoa\model\Pessoa$PessoaBuilder.class
+com\guiPalma\desafio\cadastropessoa\endpoint\service\validation\PessoaInsertValidator.class
+META-INF\spring-configuration-metadata.json
+com\guiPalma\desafio\cadastropessoa\endpoint\service\CadastroPessoaService.class
+com\guiPalma\desafio\cadastropessoa\dto\PessoaDto$PessoaDtoBuilder.class
+com\guiPalma\desafio\cadastropessoa\endpoint\controller\CadastroPessoaController.class
+com\guiPalma\desafio\cadastropessoa\endpoint\consumer\ContaCorrenteConsumer.class
+com\guiPalma\desafio\cadastropessoa\dto\PessoaDto.class
+com\guiPalma\desafio\cadastropessoa\config\ConfigServersEnvironment.class
+com\guiPalma\desafio\cadastropessoa\model\Pessoa.class

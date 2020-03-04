@@ -1,0 +1,15 @@
+C:\desafios\southsystem\microservices-banco\core\src\main\java\com\guiPalma\desafio\core\enums\TipoLimiteEnum.java
+C:\desafios\southsystem\microservices-banco\core\src\main\java\com\guiPalma\desafio\core\responses\ContaCorrenteResponse.java
+C:\desafios\southsystem\microservices-banco\core\src\main\java\com\guiPalma\desafio\core\responses\CadastroPessoaResponse.java
+C:\desafios\southsystem\microservices-banco\core\src\main\java\com\guiPalma\desafio\core\util\Validator.java
+C:\desafios\southsystem\microservices-banco\core\src\main\java\com\guiPalma\desafio\core\exceptions\ActionDeniedException.java
+C:\desafios\southsystem\microservices-banco\core\src\main\java\com\guiPalma\desafio\core\exceptions\FieldMessage.java
+C:\desafios\southsystem\microservices-banco\core\src\main\java\com\guiPalma\desafio\core\exceptions\StandardError.java
+C:\desafios\southsystem\microservices-banco\core\src\main\java\com\guiPalma\desafio\core\enums\TipoPessoaEnum.java
+C:\desafios\southsystem\microservices-banco\core\src\main\java\com\guiPalma\desafio\core\model\AbstractEntity.java
+C:\desafios\southsystem\microservices-banco\core\src\main\java\com\guiPalma\desafio\core\exceptions\ResourceExceptionHandler.java
+C:\desafios\southsystem\microservices-banco\core\src\main\java\com\guiPalma\desafio\core\CoreApplication.java
+C:\desafios\southsystem\microservices-banco\core\src\main\java\com\guiPalma\desafio\core\exceptions\ServiceErrorException.java
+C:\desafios\southsystem\microservices-banco\core\src\main\java\com\guiPalma\desafio\core\exceptions\DataIntegrityException.java
+C:\desafios\southsystem\microservices-banco\core\src\main\java\com\guiPalma\desafio\core\exceptions\ObjectNotFoundException.java
+C:\desafios\southsystem\microservices-banco\core\src\main\java\com\guiPalma\desafio\core\exceptions\ValidationError.java
