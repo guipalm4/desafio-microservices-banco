@@ -13,7 +13,7 @@ public class ParametroLimiteConfig {
 	private DbServicePopulaParametros dbService;
 	
 	@Bean
-	public boolean instantiateDataBase() {
+	public boolean instantiateDataBaseParams() {
 		dbService.instantiateTestDatabase();
 		return true;
 	}
