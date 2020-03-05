@@ -11,8 +11,7 @@ import com.guiPalma.desafio.core.property.JwtConfiguration;
 
 @SpringBootApplication
 @EntityScan({"com.guiPalma.desafio.core.model", "com.guiPalma.desafio.contacorrente.model"})
-@EnableJpaRepositories({"com.guiPalma.desafio.core.repository", 
-						"com.guiPalma.desafio.contacorrente.repository"})
+@EnableJpaRepositories({"academy.devdojo.youtube.core.repository", "com.guiPalma.desafio.contacorrente.repository"})
 @EnableConfigurationProperties(value = JwtConfiguration.class)
 @ComponentScan("com.guiPalma.desafio")
 public class ContaCorrenteApplication {
