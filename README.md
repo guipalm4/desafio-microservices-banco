@@ -23,7 +23,7 @@ Instruçoes:
   4.conta-corente [Port:8082]
   5.cadastro-pessoa [Port:8083]
   
-  *Adicionei uma configuracao no bootstrap da applicaçao que cria o banco de dados, importante que a porta 3308 estaja liberada.
+  *Adicionei uma configuracao no bootstrap da applicaçao que cria o banco de dados, importante que a porta 3308 esteja liberada.
  
  A documentaçao da API estara disponivel em:
  
