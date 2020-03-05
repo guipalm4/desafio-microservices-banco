@@ -8,6 +8,8 @@ com\guiPalma\desafio\cadastropessoa\endpoint\service\CadastroPessoaService.class
 com\guiPalma\desafio\cadastropessoa\dto\PessoaDto$PessoaDtoBuilder.class
 com\guiPalma\desafio\cadastropessoa\endpoint\controller\CadastroPessoaController.class
 com\guiPalma\desafio\cadastropessoa\endpoint\consumer\ContaCorrenteConsumer.class
+com\guiPalma\desafio\cadastropessoa\endpoint\security\SecurityCredentialsConfig.class
 com\guiPalma\desafio\cadastropessoa\dto\PessoaDto.class
 com\guiPalma\desafio\cadastropessoa\config\ConfigServersEnvironment.class
 com\guiPalma\desafio\cadastropessoa\model\Pessoa.class
+com\guiPalma\desafio\cadastropessoa\docs\SwaggerConfig.class

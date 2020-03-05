@@ -3,18 +3,18 @@ package com.guiPalma.desafio.contacorrente.endpoint.service;
 import java.util.Arrays;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.stereotype.Service;
 
 import com.guiPalma.desafio.contacorrente.model.ParametroLimite;
 import com.guiPalma.desafio.contacorrente.repository.ParametroLimiteRepository;
 
-import lombok.RequiredArgsConstructor;
-
 @Service
-@RequiredArgsConstructor(onConstructor = @__(@Autowired))
+@EnableJpaRepositories
 public class DbServicePopulaParametros {
 
-	private final ParametroLimiteRepository parametroLimiteRepository;
+	@Autowired
+	private ParametroLimiteRepository parametroLimiteRepository;
 
 	public void populaParams() {
 		

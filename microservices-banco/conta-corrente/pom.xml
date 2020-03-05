@@ -18,16 +18,24 @@
 	
 	<properties>
 		<java.version>11</java.version>
+		<guiPalma-core.version>1.0-SNAPSHOT</guiPalma-core.version>
+        <guiPalma-token.version>1.0-SNAPSHOT</guiPalma-token.version>
 	</properties>
 
 	<dependencies>
 	
 	 
-		<dependency>
-			<groupId>com.guiPalma.desafio</groupId>
-			<artifactId>core</artifactId>
-			 <version>1.0-SNAPSHOT</version>			
-		</dependency>
+		 <dependency>
+            <groupId>com.guiPalma.desafio</groupId>
+            <artifactId>token</artifactId>
+            <version>${guiPalma-token.version}</version>
+        </dependency>
+        
+         <dependency>
+            <groupId>com.guiPalma.desafio</groupId>
+            <artifactId>core</artifactId>
+            <version>${guiPalma-core.version}</version>
+        </dependency>    
 		
 	</dependencies>
 

@@ -16,19 +16,22 @@
 
 	<properties>
 		<java.version>11</java.version>
+		<guiPalma-token.version>1.0-SNAPSHOT</guiPalma-token.version>
 	</properties>
 
 	<dependencies>
+	
+		 <dependency>
+            <groupId>com.guiPalma.desafio</groupId>
+            <artifactId>token</artifactId>
+            <version>${guiPalma-token.version}</version>
+        </dependency>
 		
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-zuul</artifactId>
 		</dependency>
-
-		
 	</dependencies>
-
-	
 
 	 <build>
         <finalName>gateway</finalName>

@@ -1,5 +1,5 @@
 server:
-  port: 8083   
+  port: 8098   
 
 eureka:
   instance:
@@ -33,4 +33,8 @@ app:
     serviceId: conta-corrente
     endpoint:
       cadastroContaCorrente: /v1/admin/conta-corrente
+      
+jwt:
+  config:
+    type: signed
 

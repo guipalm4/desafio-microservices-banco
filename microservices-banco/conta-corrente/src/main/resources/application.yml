@@ -28,3 +28,7 @@ spring:
     url: jdbc:mysql://localhost:3308/conta_corrente_db?allowPublicKeyRetrieval=true&sslMode=DISABLED
     username: root
     password: root123
+  
+jwt:
+  config:
+    type: signed

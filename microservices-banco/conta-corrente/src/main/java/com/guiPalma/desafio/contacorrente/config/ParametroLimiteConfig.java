@@ -10,11 +10,11 @@ import com.guiPalma.desafio.contacorrente.endpoint.service.DbServicePopulaParame
 public class ParametroLimiteConfig {
 	
 	@Autowired
-	private DbServicePopulaParametros dbService;
+	private DbServicePopulaParametros dbServicePopulaParametros;
 	
 	@Bean
 	public boolean instantiateDataBaseParams() {
-		dbService.instantiateTestDatabase();
+		dbServicePopulaParametros.instantiateTestDatabase();
 		return true;
 	}
 

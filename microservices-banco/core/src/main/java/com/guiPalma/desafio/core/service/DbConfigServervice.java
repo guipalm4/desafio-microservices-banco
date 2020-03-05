@@ -55,12 +55,33 @@ public class DbConfigServervice {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		
+
 	}
 
+	public void criaBDAuth() {
+		try {
+			String databaseName = "auth_db";
+			String userName = "root";
+			String password = "root123";
+	
+			String url = "jdbc:mysql://localhost:3308/?allowPublicKeyRetrieval=true&sslMode=DISABLED";
+	
+			Connection connection = DriverManager.getConnection(url, userName, password);
+			String sql = "CREATE DATABASE IF NOT EXISTS " + databaseName;
+	
+			Statement statement = connection.createStatement();
+			statement.executeUpdate(sql);
+			statement.close();
+
+	}catch (Exception e) {
+		e.printStackTrace();
+	}
+}
+
 	public void instantiateTestDatabase() {
+		criaBDAuth();
 		criaBDConta();
-		criaBDCadastro();		
+		criaBDCadastro();
 	}
 
 }
